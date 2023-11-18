@@ -1,0 +1,85 @@
+use std::io;
+
+fn main() {
+    let mut input1 = String::new();
+    let mut input2 = String::new();
+    let mut input3 = String::new();
+    let mut input4 = String::new();
+    let mut input5 = String::new();
+    let mut input6 = String::new();
+    let mut input7 = String::new();
+    let mut input8 = String::new();
+    let mut input9 = String::new();
+    let mut input10 = String::new();
+    let mut input11 = String::new();
+	
+    println!(The various diseases which can be diagnosed in the hospital");
+    
+    println!(Ask for the user's name);
+    store in input 1;
+    
+    println!(Ask for the user's day of birth);
+    store in input 2;
+
+    println!(Ask for the user's month of birth);
+    store in input 3;
+
+    println!(Ask for the user's year of birth);
+    store in input 4;
+
+    println!(Ask for the user's email address);
+    store in input 5;
+
+    println!(Ask for the user's phone number);
+    store in input 6;
+
+    println!(Ask for the number of siblings the user has);
+    store in input 7;
+
+    println!(Ask for the number of children the user has);
+    store in input 8;
+
+    println!(Ask for the medical condition the user has);
+    store in input 9;
+
+    println!(Ask for the village the user is from);
+    store in input 10;
+
+    println!(Ask for the current year the user is in);
+    store in input 11;
+
+    If the patient has Alzheimer, is above 50 years old, has more than 4 children, and lives in Akpabom village {
+        then the patient, receives a 20% discount and the program displays the patient's information and the total bill 
+   }
+    else if the patient has Arrhythmia, is 30 years old, has more than 4 siblings, and lives in Ngbauji village {
+        then the patient, receives a 5% discount and the program displays the patient's information and the total bill 
+   }
+    else if the patient has Chronic Kidney Disease, is above 40 years old, has more than 3 children and 3 siblings, and lives in Atabrikang village {
+        then the patient, receives a 15% discount and the program displays the patient's information and the total bill 
+   }
+    else if the patient has Diabetes, is above 28 years old and less than 45, has 2-4 children, and lives in Okorobilom village {
+        then the patient, receives a 10% discount and the program displays the patient's information and the total bill 
+   }
+    else if the patient has Arthritis, is above 58 years old, has more than 5 siblings and children, and lives in Emeremen village {
+        then the patient, receives a 10% discount and the program displays the patient's information and the total bill 
+   }
+    else if the patient has Alzeheimer {
+        then the patient, receives no discount and their bill is N1,200,000 
+   }
+       else if the patient has Arrhythmia {
+        then the patient, receives no discount and their bill is N550,000 
+   }
+    else if the patient has Chronic Kidney Disease {
+        then the patient, receives no discount and their bill is N1,500,000 
+   }
+    else if the patient has Diabetes {
+        then the patient, receives no discount and their bill is N800,000 
+   }
+    else if the patient has Arthritis {
+        then the patient, receives no discount and their bill is N450,000 
+   }
+   else {
+        println!("We do not treat that disease in this hospital");
+   }
+
+}
