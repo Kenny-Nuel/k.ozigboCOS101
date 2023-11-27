@@ -14,7 +14,7 @@ fn main() {
 
     while eligible_students < 150 {
         println!("*****This program can only be executed for 150 eligible candidates*****");
-        println!("Current number of researchers this program has been executed for: {}", eligible_students);
+        println!("Current number of sudents this program has been executed for: {}", eligible_students);
         eligible_students += 1;
 
         println!("Please, input your name as it appears on your student ID card: ");
@@ -45,22 +45,18 @@ fn main() {
         io::stdin().read_line(&mut input7).expect("Invalid string");
         let current_cgpa:f64 = input7.trim().parse().expect("Invalid float");
 
-        if current_class.to_lowercase() == "200 level" || current_class.to_lowercase() == "300 level" || current_class.to_lowercase() == "400 level" && current_cgpa > 4.0 && current_position.to_lowercase() != "yes" {
+        if current_class.to_lowercase() == "200 level" || current_class.to_lowercase() == "300 level" || current_class.to_lowercase() == "400 level" && current_cgpa > 4.0 && current_position.to_lowercase() == "yes" {
             println!("You can vote 👏");
-            println!("      Your name is {}\n 
-                    Your email is {}\n 
-                    Your are studying {}\n
-                    Your are from {} state",name,email, department, state_of_origin);
-        } else {
-            println!("Sorry, you are not eligble to vote");
-        }
-
-        else if current_class == "200" || current_class.to_lowercase() == "300" || current_class.to_lowercase() == "400" && current_cgpa > 4.0 && current_position.to_lowercase() != "yes" {
+            println!("Your name is {}\n 
+            Your email is {}\n 
+            Your are studying {}\n
+            Your are from {} state",name,email, department, state_of_origin);
+        } else if current_class == "200" || current_class == "300" || current_class == "400" && current_cgpa > 4.0 && current_position.to_lowercase() == "yes" {
             println!("You can vote 👏");
-            println!("      Your name is {}\n 
-                    Your email is {}\n 
-                    Your are studying {}\n
-                    Your are from {} state",name,email, department, state_of_origin);
+            println!("Your name is {}\n 
+            Your email is {}\n 
+            Your are studying {}\n
+            Your are from {} state",name,email, department, state_of_origin);
         } else {
             println!("Sorry, you are not eligble to vote");
         }
