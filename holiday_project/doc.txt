@@ -1,0 +1,24 @@
+----------------------------------------------------------------------
+THE PERCENTAGE LEVERAGE OF COMPANIES THAT HAVE SHARES GREATER THAN 20,000,000 
+----------------------------------------------------------------------
+Company Name: Champion Brewries PLC
+Percentage Liabilty: 	68%
+----------------------------------------------------------------------
+Company Name: Dangote Sugar Refinery
+Percentage Liabilty: 	44.444447%
+----------------------------------------------------------------------
+Company Name: Flour Mills Nigeria PLC
+Percentage Liabilty: 	87.5%
+----------------------------------------------------------------------
+Company Name: Nestle Nigeria PLC
+Percentage Liabilty: 	81.25%
+----------------------------------------------------------------------
+Company Name: Unilever Nigeria PLC
+Percentage Liabilty: 	70.27027%
+----------------------------------------------------------------------
+Company Name: Honeywell Nigeria PLC
+Percentage Liabilty: 	73.52941%
+----------------------------------------------------------------------
+Company Name: Nigerian Brewries PLC
+Percentage Liabilty: 	60.000004%
+----------------------------------------------------------------------
